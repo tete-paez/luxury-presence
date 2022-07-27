@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+
+    background: url(./assets/antonio-cuellar-KDS5lCrj_ew-unsplash.jpg);
+    background-size: cover;
+    
+    width: 100%;
+    /* height: 100%; */
+    position: fixed;
+    /* z-index: 100; */
+    
+    
+}
+nav {
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    margin-top: 4%;
+    background: #313a70;
+    padding-right: 2%;
+    padding-left: 2%;
+    opacity: 0.7;
+    position: fixed; 
+    top: 0px;
+    transform: translateY(0px) scale(1);
+
+}
+.img-logo {
+    filter: invert();
+    width: 35%;
+}
+
+.container-ul {
+    display: flex;
+}
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+.nav-anchor {
+    color: white;
+
+        display: block; 
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+}
+.nav-anchor:hover {
+    text-decoration: underline;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    overflow: hidden; 
+    align-items: center
+}
+.nav-li {
+    display: contents;
+    padding: 2%;
+    font-family: 'Kanit', sans-serif;
+    white-space: nowrap;
+}
+.fa-bars {
+    color: white;
+}
+/******SECTION 1*****/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title1 {
+    font-size: 5rem;
+    font-family: 'Cormorant Garamond', serif;    
+    font-weight: 150;
+    color: #313a70;
+    margin-top: 222px;
+    z-index: 100;
+}
+.tittle2 {
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', serif;    
+    font-weight: 100;
+    color: #393f63;
+    z-index: 100;
+}
+
+/******SECTION 2******/
+.container-secondary {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.title3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 200;    
+    color: white;
+}
+.learn-more-btn {
+
+}
